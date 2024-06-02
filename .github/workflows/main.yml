@@ -11,7 +11,7 @@ jobs:
   main:
     runs-on: ubuntu-latest
     container:
-     image: honeygain/honeygain:latest
+     image: earnfm/earnfm-client:latest
      options: --privileged --user root
 
     steps:
